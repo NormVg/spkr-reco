@@ -1,7 +1,7 @@
 from flask import Flask, request  #redirect, url_for
 from ver import verify
 #from flask import Flask, flash, request, redirect, url_for
-from replit import web
+#from replit import web
 #from werkzeug.utils import secure_filename
 import os
 
@@ -34,6 +34,6 @@ def upload_file():
     '''
 
 
-if __name__ == '__main__':
-  #app.run(debug=True)
-  web.run(app)
+#if __name__ == '__main__':
+#  #app.run(debug=True)
+#  web.run(app)
