@@ -33,7 +33,11 @@ def upload_file():
     </form>
     '''
 
-
+@app.route('/spr-reco-1', methods=['GET', 'POST'])
+def upload_file_one():
+  v = verify()
+  return str(v)  #redirect(url_for('down', name=filename))
+  
 #if __name__ == '__main__':
 #  #app.run(debug=True)
 #  web.run(app)
