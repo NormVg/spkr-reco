@@ -4,3 +4,4 @@ flask
 Gunicorn
 speechbrain
 transformers
+soundfile
